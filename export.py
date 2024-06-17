@@ -1,7 +1,7 @@
 import argparse
 import json
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '2'
+# os.environ['CUDA_VISIBLE_DEVICES'] = '2'
 import pickle
 
 from dataset.augmentation import get_transform
